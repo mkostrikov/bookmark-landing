@@ -1,0 +1,13 @@
+@use "../tools" as t;
+
+.b-btn-list {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
+
+  @include t.breakpoint(m) {
+    & {
+      justify-content: start;
+    }
+  }
+}

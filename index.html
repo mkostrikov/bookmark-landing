@@ -13,23 +13,22 @@
     <script defer type="module" src="/src/scripts/main.js"></script>
   </head>
   <body>
-  <div class="l-page">
     <header></header>
     <main>
       <header class="l-hero">
         <div class="l-hero__illustration">
-          <div class="b-illustration"></div>
+          <div class="b-illustration b-illustration--hero b-illustration--reverse"></div>
         </div>
-        <div class="l-hero__content">
-          <h1 class="l-hero__headline">A Simple Bookmark Manager</h1>
-          <p class="l-hero__description">
+        <div class="l-hero__content l-grid-three-row">
+          <h1 class="l-grid-three-row__headline">A Simple Bookmark Manager</h1>
+          <p class="l-grid-three-row__description">
             A clean and simple interface to organize your favourite websites.
             Open a new browser tab and see your sites load instantly. Try it for
             free.
           </p>
-          <div class="l-hero__links">
-            <a class="b-btn-link b-btn-link--blue" href="#">Get it on Chrome</a>
-            <a class="b-btn-link" href="#">Get it on Firefox</a>
+          <div class="b-btn-list l-grid-three-row__content">
+            <button class="b-btn b-btn--blue">Get it on Chrome</button>
+            <button class="b-btn">Get it on Firefox</button>
           </div>
         </div>
       </header>
@@ -37,6 +36,5 @@
         <h2></h2>
       </section>
     </main>
-  </div>
   </body>
 </html>

@@ -1,0 +1,67 @@
+@use "../tools" as t;
+
+.b-btn {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #242a45;
+  box-shadow: 0 8px 8px -4px rgba(73, 93, 207, 0.2);
+  background: #f7f7f7;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  min-inline-size: 66px;
+  min-block-size: 48px;
+  padding: 0 24px;
+  border: 2px solid #f7f7f7;
+
+  &--blue {
+    color: #fff;
+    background: #5267df;
+    border: 2px solid #5267df;
+  }
+
+  &--red {
+    color: #fff;
+    background: #fa5959;
+    border: 2px solid #fa5959;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      border: 2px solid #5b6074;
+      background: #fff;
+    }
+
+    &--blue:hover {
+      border: 2px solid #5267df;
+      background: #fff;
+      color: #5267df;
+    }
+
+    &--red:hover {
+      border: 2px solid #fa5959;
+      background: #fff;
+      color: #fa5959;
+    }
+  }
+
+  @media (hover: none) {
+    &:active {
+      border: 2px solid #5b6074;
+      background: #fff;
+    }
+
+    &--blue:active {
+      border: 2px solid #5267df;
+      background: #fff;
+      color: #5267df;
+    }
+
+    &--red:active {
+      border: 2px solid #fa5959;
+      background: #fff;
+      color: #fa5959;
+    }
+  }
+}

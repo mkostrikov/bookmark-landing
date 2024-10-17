@@ -1,0 +1,27 @@
+@use "../tools" as t;
+
+.l-grid-three-row {
+  display: grid;
+  grid-template-rows: auto 16px auto 32px auto;
+  align-content: center;
+  text-align: center;
+
+  &__headline {
+    grid-row: 1;
+  }
+
+  &__description {
+    grid-row: 3;
+    max-inline-size: 48ch;
+  }
+
+  &__content {
+    grid-row: 5;
+  }
+
+  @include t.breakpoint(s) {
+    & {
+      grid-template-rows: auto 24px auto 32px auto;
+    }
+  }
+}

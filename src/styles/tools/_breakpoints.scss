@@ -5,6 +5,7 @@ $breakpoints: (
   "s": f.em(480),
   "m": f.em(768),
   "l": f.em(1000),
+  "xl": f.em(1440),
 );
 
 @mixin breakpoint($size) {
