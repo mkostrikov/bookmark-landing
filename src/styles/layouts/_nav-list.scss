@@ -1,0 +1,13 @@
+@use "../tools/index" as t;
+
+.l-nav-list {
+  block-size: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 48px;
+
+  @include t.breakpoint(l) {
+    & {
+      grid-auto-flow: column;}
+  }
+}

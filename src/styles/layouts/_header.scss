@@ -1,6 +1,8 @@
 @use "../tools" as t;
 
 .l-header {
+  padding-block-start: 40px;
+  padding-inline: var(--offset);
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: 48px;
@@ -11,7 +13,17 @@
     display: none;
   }
 
-  @include t.breakpoint(m) {
+  &__menu {
+    inline-size: 18px;
+    block-size: 15px;
+    display: grid;
+  }
+
+  @include t.breakpoint(l) {
+    & {
+      padding-block-start: 48px;
+    }
+
     &__nav {
       display: block;
     }
