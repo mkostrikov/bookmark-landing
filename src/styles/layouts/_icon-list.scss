@@ -1,0 +1,13 @@
+
+
+.l-icon-list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: 24px;
+  grid-auto-columns: 24px;
+  gap: 32px;
+
+  &__item {
+    display: grid;
+  }
+}

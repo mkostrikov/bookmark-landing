@@ -1,0 +1,26 @@
+@use "../tools" as t;
+
+.l-grid-step {
+  display: grid;
+  grid-template-columns: 280px;
+  justify-content: center;
+  gap: 40px;
+
+  @include t.breakpoint(l) {
+    & {
+      grid-template-columns: repeat(3, minmax(200px, 280px));
+    }
+
+    & > *:nth-child(n) {
+      margin-block-start: 0;
+    }
+
+    & > *:nth-child(3n - 1) {
+      margin-block-start: 40px;
+    }
+
+    & > *:nth-child(3n + 3) {
+      margin-block-start: 80px;
+    }
+  }
+}

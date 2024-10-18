@@ -1,0 +1,55 @@
+@use "../tools" as t;
+
+.b-card {
+  border-radius: 15px;
+  box-shadow: 0 10px 20px -5px rgba(73, 93, 207, 0.2);
+  background: #fff;
+  padding: 48px 0 24px;
+  display: grid;
+  grid-template-areas:
+    "img"
+    "..."
+    "headline"
+    "..."
+    "description"
+    "..."
+    "divider"
+    "..."
+    "btn";
+  grid-template-rows: auto 32px auto 6px auto 32px auto 24px auto;
+
+  &__img {
+    grid-area: img;
+    display: grid;
+    justify-content: center;
+  }
+
+  &__headline {
+    grid-area: headline;
+  }
+
+  &__description {
+    grid-area: description;
+  }
+
+  &::before {
+    grid-area: divider;
+    content: "";
+    block-size: 4px;
+    background: radial-gradient(
+      circle at center,
+      rgba(73, 93, 207, 0.2) 0,
+      rgba(73, 93, 207, 0.2) 2px,
+      #fff 2px,
+      #fff 100%
+    );
+    background-size: 16px 4px;
+    background-position: left -8px center;
+    background-repeat: round;
+  }
+
+  &__btn {
+    grid-area: btn;
+    margin-inline: 24px;
+  }
+}

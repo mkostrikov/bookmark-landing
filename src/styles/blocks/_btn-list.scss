@@ -2,8 +2,13 @@
 
 .b-btn-list {
   display: grid;
-  grid-auto-flow: column;
   gap: 16px;
+
+  @include t.breakpoint(s) {
+    & {
+      grid-auto-flow: column;
+    }
+  }
 
   @include t.breakpoint(m) {
     & {

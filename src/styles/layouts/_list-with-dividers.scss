@@ -1,0 +1,16 @@
+@use "../tools/index" as t;
+
+.l-list-with-dividers {
+  display: grid;
+  grid-template-columns: minmax(100%, 540px);
+  gap: 1px;
+  border-top: 1px solid rgba(36, 42, 69, 0.15);
+  border-bottom: 1px solid rgba(36, 42, 69, 0.15);
+  background-color: rgba(36, 42, 69, 0.15);
+
+  & > li {
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+  }
+}

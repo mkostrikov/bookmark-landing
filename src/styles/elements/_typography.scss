@@ -1,5 +1,34 @@
 @use "../tools/" as t;
 
+h1 {
+  font-size: clamp(
+    t.rem(30),
+    1.5535714285714286rem + 1.607142857142857vw,
+    t.rem(48)
+  );
+  font-weight: 500;
+  line-height: 1.33;
+  color: #242a45;
+}
+
+h2 {
+  font-size: clamp(
+    t.rem(24),
+    1.3571428571428572rem + 0.7142857142857143vw,
+    t.rem(32)
+  );
+  font-weight: 500;
+  line-height: 1.62;
+  color: #242a45;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  color: #242a45;
+}
+
 p {
   font-size: clamp(
     t.rem(15),
