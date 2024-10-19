@@ -1,25 +1,34 @@
 @use "../tools/index" as t;
 
 .l-footer {
-  display: grid;
-  justify-items: center;
-  gap: 48px;
-  background: #242a45;
-  padding: 42px var(--offset);
+  &__form {
+    background: #5267df;
+    padding: 60px var(--offset);
+    display: grid;
+    place-items: center;
+  }
 
   &__navbar {
+    padding: 42px var(--offset);
+    display: grid;
+    justify-items: center;
+    gap: 48px;
+    background: #242a45;
+  }
+
+  &__navbar > div {
     display: grid;
     justify-content: center;
     gap: 40px;
   }
 
   @include t.breakpoint(l) {
-    & {
+    &__navbar {
       grid-auto-flow: column;
       justify-content: space-between;
     }
 
-    &__navbar {
+    &__navbar > div {
       grid-auto-flow: column;
       gap: 64px;
     }

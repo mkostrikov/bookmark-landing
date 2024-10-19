@@ -18,6 +18,10 @@
     mask-image: url('data:image/svg+xml,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h18v3H0V0Zm0 6h18v3H0V6Zm18 6H0v3h18v-3Z" fill="%23242A45"/></svg>');
   }
 
+  &--invalid {
+    mask-image: url('data:image/svg+xml,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="%238c0e0e;"/><rect x="9" y="5" width="2" height="7" rx="1" fill="%23fff"/><rect x="9" y="13" width="2" height="2" rx="1" fill="%23fff"/></svg>');
+  }
+
   &--blue {
     background-color: #242a45;
   }

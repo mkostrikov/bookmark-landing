@@ -21,12 +21,15 @@
             <li><a href="#" class="b-link">features</a></li>
             <li><a href="#" class="b-link">pricing</a></li>
             <li><a href="#" class="b-link">contact</a></li>
-            <li><button class="b-btn b-btn--red b-btn--uppercase">login</button></li>
+            <li>
+              <button class="b-btn b-btn--red b-btn--uppercase">login</button>
+            </li>
           </ul>
         </nav>
         <div class="l-header__menu">
           <button class="b-btn-icon">
             <span class="b-icon b-icon--menu b-icon--blue"></span>
+            <span class="b-btn-icon__txt">Open menu</span>
           </button>
         </div>
       </header>
@@ -222,28 +225,59 @@
         </section>
       </main>
       <footer class="l-footer">
-        <div class="l-footer__navbar">
-          <div class="b-logo b-logo--txt-white"></div>
-          <nav>
-            <ul class="l-nav-list">
-              <li><a href="#" class="b-link b-link--light">features</a></li>
-              <li><a href="#" class="b-link b-link--light">pricing</a></li>
-              <li><a href="#" class="b-link b-link--light">contact</a></li>
-            </ul>
-          </nav>
+        <div class="l-footer__form">
+          <form action="#" class="b-contact-form">
+            <p class="b-contact-form__info">35,000+ already joined</p>
+            <h2 class="b-contact-form__headline">
+              Stay up-to-date with what we’re doing
+            </h2>
+            <div class="b-contact-form__content">
+              <div class="b-form-row">
+                <label for="email" class="b-form-row__label">Email</label>
+                <input
+                  class="b-form-row__input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  placeholder="Enter your email address"
+                  required
+                />
+                <div class="b-form-row__invalid-icon">
+                  <span class="b-icon b-icon--invalid"></span>
+                </div>
+                <p class="b-form-row__error-message">
+                  Whoops, make sure it’s an email
+                </p>
+              </div>
+              <button class="b-btn b-btn--red">Contact Us</button>
+            </div>
+          </form>
         </div>
-        <ul class="l-icon-list">
-          <li class="l-icon-list__item">
-            <a href="#">
-              <span class="b-icon b-icon--facebook"></span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span class="b-icon b-icon--twitter"></span>
-            </a>
-          </li>
-        </ul>
+        <div class="l-footer__navbar">
+          <div>
+            <div class="b-logo b-logo--txt-white"></div>
+            <nav>
+              <ul class="l-nav-list">
+                <li><a href="#" class="b-link b-link--light">features</a></li>
+                <li><a href="#" class="b-link b-link--light">pricing</a></li>
+                <li><a href="#" class="b-link b-link--light">contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <ul class="l-icon-list">
+            <li class="l-icon-list__item">
+              <a href="#">
+                <span class="b-icon b-icon--facebook"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="b-icon b-icon--twitter"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </footer>
     </div>
   </body>
