@@ -1,0 +1,89 @@
+@use "../tools" as t;
+
+.b-menu {
+  background: #242a45;
+  opacity: 0.95;
+  block-size: 100dvh;
+  inline-size: 300px;
+  transition:
+    display 0.3s allow-discrete,
+    overlay 1s allow-discrete;
+  animation: close 0.3s forwards;
+
+  &[open] {
+    animation: open 0.3s forwards;
+  }
+
+  &__wrapper {
+    block-size: 100%;
+    inline-size: 100%;
+    padding: 48px 32px 48px;
+    display: grid;
+    grid-template-columns: minmax(0, 500px);
+    grid-template-rows: auto auto minmax(auto, 1fr);
+    justify-content: center;
+    align-content: start;
+    gap: 40px;
+  }
+
+  &__wrapper > header {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__link {
+    background: #242a45;
+    block-size: 64px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0.85;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    display: grid;
+    place-items: center;
+  }
+
+  &__close-btn {
+    background: #242a45;
+    inline-size: 15px;
+    block-size: 15px;
+  }
+
+  &__btn {
+    background: #242a45;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.85;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top: 24px;
+  }
+
+  &__icons {
+    align-self: end;
+    justify-self: center;
+  }
+
+  @keyframes open {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+
+  @keyframes close {
+    from {
+      left: 0;
+    }
+    to {
+      left: -100%;
+    }
+  }
+}

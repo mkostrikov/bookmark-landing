@@ -10,7 +10,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
 
     <link rel="stylesheet" href="/src/styles/main.scss" />
-    <script defer type="module" src="/src/scripts/main.js"></script>
+    <script type="module" src="/src/scripts/main.js"></script>
   </head>
   <body>
     <div class="l-page">
@@ -27,10 +27,50 @@
           </ul>
         </nav>
         <div class="l-header__menu">
-          <button class="b-btn-icon">
+          <button class="b-btn-icon js-menu-open">
             <span class="b-icon b-icon--menu b-icon--blue"></span>
             <span class="b-btn-icon__txt">Open menu</span>
           </button>
+
+          <dialog class="b-menu js-menu">
+            <div class="b-menu__wrapper">
+              <header>
+                <div class="b-logo b-logo--gray"></div>
+                <button class="b-menu__close-btn b-btn-icon js-menu-close">
+                  <span class="b-icon b-icon--close"></span>
+                  <span class="b-btn-icon__txt">Close menu</span>
+                </button>
+              </header>
+              <nav>
+                <ul class="l-list-with-dividers l-list-with-dividers--dark">
+                  <li>
+                    <a href="#" class="b-menu__link">features</a>
+                  </li>
+                  <li>
+                    <a href="#" class="b-menu__link">pricing</a>
+                  </li>
+                  <li>
+                    <a href="#" class="b-menu__link">contact</a>
+                  </li>
+                  <li>
+                    <button class="b-menu__btn b-btn">login</button>
+                  </li>
+                </ul>
+              </nav>
+              <ul class="b-menu__icons l-icon-list">
+                <li class="l-icon-list__item">
+                  <a href="#">
+                    <span class="b-icon b-icon--facebook"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="b-icon b-icon--twitter"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </dialog>
         </div>
       </header>
       <main class="l-main">

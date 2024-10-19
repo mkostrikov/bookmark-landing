@@ -13,4 +13,14 @@
     display: grid;
     align-items: center;
   }
+
+  &--dark {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+
+  &--dark > li {
+    background-color: rgba(36, 42, 69, 0.95);
+  }
 }

@@ -22,6 +22,10 @@
     mask-image: url('data:image/svg+xml,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="%238c0e0e;"/><rect x="9" y="5" width="2" height="7" rx="1" fill="%23fff"/><rect x="9" y="13" width="2" height="2" rx="1" fill="%23fff"/></svg>');
   }
 
+  &--close {
+    mask-image: url('data:image/svg+xml,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 15"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 5.379 2.697.075.575 2.197 5.878 7.5.575 12.803l2.122 2.122L8 9.62l5.303 5.304 2.121-2.122L10.121 7.5l5.303-5.303-2.12-2.122L8 5.38Z" fill="%23fff"/></svg>');
+  }
+
   &--blue {
     background-color: #242a45;
   }
