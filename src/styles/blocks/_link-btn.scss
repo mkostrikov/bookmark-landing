@@ -1,0 +1,85 @@
+@use "../tools" as t;
+
+.b-link-btn {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  box-shadow: 0 8px 8px -4px rgba(73, 93, 207, 0.2);
+  background: inherit;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  min-inline-size: 66px;
+  min-block-size: 48px;
+  border: 2px solid #fff;
+
+  &--gray {
+    background: #f7f7f7;
+    color: #242a45;
+    border: 2px solid #f7f7f7;
+  }
+
+  &--blue {
+    color: #fff;
+    background: #5267df;
+    border: 2px solid #5267df;
+  }
+
+  &--red {
+    color: #fff;
+    background: #8c0e0e;
+    border: 2px solid #8c0e0e;
+  }
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    &--gray:hover {
+      border: 2px solid #5b6074;
+      background: #fff;
+    }
+
+    &--blue:hover {
+      border: 2px solid #5267df;
+      background: #fff;
+      color: #5267df;
+    }
+
+    &--red:hover {
+      border: 2px solid #8c0e0e;
+      background: #fff;
+      color: #8c0e0e;
+    }
+  }
+
+  @media (hover: none) {
+    &:active {
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    &--gray:active {
+      border: 2px solid #5b6074;
+      background: #fff;
+    }
+
+    &--blue:active {
+      border: 2px solid #5267df;
+      background: #fff;
+      color: #5267df;
+    }
+
+    &--red:active {
+      border: 2px solid #8c0e0e;
+      background: #fff;
+      color: #8c0e0e;
+    }
+  }
+}

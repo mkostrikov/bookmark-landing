@@ -1,0 +1,41 @@
+@use "../tools" as t;
+
+.l-hero-content {
+  display: grid;
+  grid-template-columns: minmax(0, 540px);
+  grid-template-rows: auto 16px auto 32px auto;
+  grid-template-areas:
+    "headline"
+    "..."
+    "description"
+    "..."
+    "links";
+
+  &__headline {
+    grid-area: headline;
+    line-height: 1.33;
+    letter-spacing: 0;
+  }
+
+  &__description {
+    grid-area: description;
+    line-height: 1.67;
+  }
+
+  &__links {
+    grid-area: links;
+    display: grid;
+    gap: 16px;
+  }
+
+  @include t.breakpoint(xs) {
+    &__links {
+      grid-auto-flow: column;
+      justify-content: start;
+    }
+
+    &__link {
+      padding: 0 25px;
+    }
+  }
+}

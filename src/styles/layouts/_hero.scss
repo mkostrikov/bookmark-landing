@@ -6,28 +6,27 @@
     "h-illustration"
     "h-content";
   row-gap: 48px;
+  align-items: center;
 
   &__illustration {
     grid-area: h-illustration;
-    aspect-ratio: 3 / 2;
-    background-image: url('data:image/svg+xml,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 645 430"><rect x="152.5" y="131.5" width="1000" height="352" rx="176" fill="%235267df" clip-path="url(%23a)" transform="matrix(.92222 0 0 .8692 13.174 9.74)"/><rect width="574.23" height="381.865" rx="25" fill="url(%23b)" style="fill:url(%23b)" clip-path="url(%23c)" transform="scale(1.0086 .94328)"/><rect opacity=".1" x="52.031" y="14.303" width="471.463" height="353.756" rx="5" fill="%232a2a2a" clip-path="url(%23d)" transform="scale(1.0086 .94328)"/><rect x="19.031" y="17.303" width="536" height="346" rx="8" fill="%23e8eaf6" clip-path="url(%23e)" transform="scale(1.0086 .94328)"/><mask id="f" maskUnits="userSpaceOnUse" x="61" y="29" width="537" height="347"><rect x="61.531" y="29.803" width="536" height="346" rx="8" fill="%23fff"/></mask><g mask="url(%23f)" transform="matrix(1.0086 0 0 .94328 -42.866 -11.791)" clip-path="url(%23g)"><path fill="%235267df" d="M58 30h547v59H58Z"/><circle opacity=".245" cx="100" cy="60" r="16" fill="%23fff"/><circle opacity=".104" cx="561" cy="60" r="16" fill="%23fff"/><rect opacity=".75" x="131" y="50" width="120" height="6" rx="3" fill="%23fff"/><rect opacity=".25" x="131" y="64" width="64" height="6" rx="3" fill="%23fff"/><rect x="118.531" y="122.803" width="261" height="316" rx="8" fill="%23fff"/><rect x="413.531" y="122.803" width="128" height="316" rx="8" fill="%23fff"/><rect opacity=".5" x="197" y="161" width="120" height="6" rx="3" fill="%23242a45"/></g><circle cx="123.5" cy="158.5" r="16" fill="%23f98e5d" clip-path="url(%23h)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="391.5" y="132.5" width="88" height="6" rx="3" fill="%23242a45" clip-path="url(%23i)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="391.5" y="152.5" width="88" height="6" rx="3" fill="%23242a45" clip-path="url(%23j)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="391.5" y="172.5" width="88" height="6" rx="3" fill="%23242a45" clip-path="url(%23k)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="391.5" y="192.5" width="88" height="6" rx="3" fill="%23242a45" clip-path="url(%23l)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="391.5" y="226.5" width="88" height="6" rx="3" fill="%23242a45" clip-path="url(%23m)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="391.5" y="246.5" width="88" height="6" rx="3" fill="%23242a45" clip-path="url(%23n)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="391.5" y="266.5" width="88" height="6" rx="3" fill="%23242a45" clip-path="url(%23o)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="154.5" y="162.5" width="64" height="6" rx="3" fill="%23242a45" clip-path="url(%23p)" transform="scale(1.0086 .94328)"/><circle cx="123.5" cy="214.5" r="16" fill="%236ac6d6" clip-path="url(%23q)" transform="scale(1.0086 .94328)"/><rect opacity=".5" x="154.5" y="204.5" width="120" height="6" rx="3" fill="%23242a45" clip-path="url(%23r)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="154.5" y="218.5" width="64" height="6" rx="3" fill="%23242a45" clip-path="url(%23s)" transform="scale(1.0086 .94328)"/><circle cx="123.5" cy="270.5" r="16" fill="%23a47ed4" clip-path="url(%23t)" transform="scale(1.0086 .94328)"/><rect opacity=".5" x="154.5" y="260.5" width="120" height="6" rx="3" fill="%23242a45" clip-path="url(%23u)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="154.5" y="274.5" width="64" height="6" rx="3" fill="%23242a45" clip-path="url(%23v)" transform="scale(1.0086 .94328)"/><circle cx="123.5" cy="326.5" r="16" fill="%23ec7878" clip-path="url(%23w)" transform="scale(1.0086 .94328)"/><rect opacity=".5" x="154.5" y="316.5" width="120" height="6" rx="3" fill="%23242a45" clip-path="url(%23x)" transform="scale(1.0086 .94328)"/><rect opacity=".25" x="154.5" y="330.5" width="64" height="6" rx="3" fill="%23242a45" clip-path="url(%23y)" transform="scale(1.0086 .94328)"/><defs><clipPath clipPathUnits="userSpaceOnUse" id="y"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="x"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="w"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="v"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="u"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="t"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="s"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="r"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="q"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="p"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="o"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="n"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="m"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="l"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="k"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="j"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="i"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="h"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="g"><path style="fill:%23d40000;fill-rule:evenodd" d="M-38.774-35.672h766.386v601.749H-38.774Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="e"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="d"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="c"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="a"><path style="fill:%23d40000;fill-rule:evenodd" d="M-81.274-48.172h766.386v601.749H-81.274Z"/></clipPath><linearGradient id="b" x1="704.599" y1="-43.141" x2="548.325" y2="-304.444" gradientUnits="userSpaceOnUse" gradientTransform="translate(-42.5 -12.5)"><stop stop-color="%23151515"/><stop offset="1" stop-color="%233D3D3D"/></linearGradient></defs></svg>');
-    background-repeat: no-repeat;
-    background-size: contain;
     background-position: center right;
-    background-origin: content-box;
     margin-inline-start: var(--offset);
   }
 
   &__content {
     grid-area: h-content;
     justify-self: center;
+    text-align: center;
+    margin-inline: var(--offset);
   }
 
-  @include t.breakpoint(l) {
+  @include t.breakpoint(m) {
     & {
       grid-template-areas: "h-content h-illustration";
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-      column-gap: 48px;
+      column-gap: 24px;
+      row-gap: 0;
     }
 
     &__illustration {
@@ -37,7 +36,12 @@
     &__content {
       margin-inline: var(--offset) 0;
       text-align: left;
-      justify-items: start;
+    }
+  }
+
+  @include t.breakpoint(l) {
+    & {
+      column-gap: 48px;
     }
   }
 

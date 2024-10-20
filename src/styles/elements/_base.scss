@@ -7,20 +7,12 @@
     --offset: 32px;
   }
 
-  @include t.breakpoint(s) {
-    --offset: 56px;
-  }
-
-  @include t.breakpoint(m) {
-    --offset: 86px;
-  }
-
   @include t.breakpoint(l) {
-    --offset: 114px;
+    --offset: 64px;
   }
 
   @include t.breakpoint(xl) {
-    --offset: 164px;
+    --offset: 128px;
   }
 }
 
