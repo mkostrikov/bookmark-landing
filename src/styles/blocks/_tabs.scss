@@ -1,0 +1,32 @@
+@use "../tools" as t;
+
+.b-tabs {
+  display: grid;
+  gap: 48px;
+
+  &__nav {
+    margin-inline: var(--offset);
+  }
+
+  &__btn {
+    block-size: 58px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.06;
+    letter-spacing: 0.03em;
+    color: #242a45;
+  }
+
+  &__btn[active] {
+    border-bottom: 2px solid red;
+  }
+
+  &__tab {
+    display: none;
+  }
+
+  &__tab[active] {
+    display: block;
+  }
+}

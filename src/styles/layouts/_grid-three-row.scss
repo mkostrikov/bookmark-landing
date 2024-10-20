@@ -6,15 +6,16 @@
   align-content: center;
   justify-items: center;
   text-align: center;
-  margin-inline: var(--offset);
 
   &__headline {
     grid-row: 1;
+    margin-inline: var(--offset);
   }
 
   &__description {
     grid-row: 3;
     max-inline-size: 48ch;
+    margin-inline: var(--offset);
   }
 
   &__content {
@@ -22,11 +23,16 @@
     display: grid;
     justify-items: center;
     gap: 48px;
+    margin-inline: var(--offset);
   }
 
   @include t.breakpoint(s) {
     & {
       grid-template-rows: auto 24px auto 40px auto;
     }
+  }
+
+  &__content--not-offset {
+    margin-inline: 0;
   }
 }
