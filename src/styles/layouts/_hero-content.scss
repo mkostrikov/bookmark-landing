@@ -28,14 +28,20 @@
     gap: 16px;
   }
 
-  @include t.breakpoint(xs) {
+  @include t.breakpoint(s) {
     &__links {
       grid-auto-flow: column;
-      justify-content: start;
+      justify-content: center;
     }
 
     &__link {
-      padding: 0 25px;
+      padding: 0 24px;
+    }
+  }
+
+  @include t.breakpoint(m) {
+    &__links {
+      justify-content: start;
     }
   }
 }

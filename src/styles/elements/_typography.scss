@@ -9,20 +9,22 @@ h1 {
   font-weight: 500;
 }
 
-//fix
 h2 {
   font-size: clamp(
-    t.rem(24),
-    1.3571428571428572rem + 0.7142857142857143vw,
+    t.rem(20),
+    1.0357142857142856rem + 1.0714285714285714vw,
     t.rem(32)
   );
   font-weight: 500;
 }
 
-// fix
 h3 {
+  font-size: clamp(
+    t.rem(20),
+    1.0357142857142856rem + 1.0714285714285714vw,
+    t.rem(32)
+  );
   font-weight: 500;
-  font-size: 20px;
 }
 
 p {
